@@ -2,6 +2,10 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$ ->
-    $(".element").text("What's up?");
-    testing('testing');
+$(".skills").typed({
+            strings: ["HTML", "CSS", "JavaScript", "JQuery", "Ruby on Rails", "Angular"],
+            typeSpeed: 100,
+			backDelay: 1500,
+			loop: true,
+			loopCount: false
+        });
