@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require typed
+//= require sss
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
