@@ -15,5 +15,4 @@
 //= require slideshow
 //= require typed
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
