@@ -14,30 +14,19 @@
 
 <div class="supporting">
   <div class="container">
-    
+
     <div class="row">
+      <% @works.each do |work| %>
       <div class="col-md-4">
-      <% @things.each do |thing| %>
-        
+        <a class="consumer thumbnail">
+          <h3><%= work.name %></h3>
+          <p><%= image_tag(work.imgurl, class: "img-responsive") %></p>
+          <p><%= work.description %></p>
+        </a>
+      </div>    
       <% end %>
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/readme.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/readme.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/readme.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
     </div>
+
 
     <div class="row">
       <div class="col-md-4">
@@ -59,28 +48,6 @@
         </a>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-md-4">
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/gameboard.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/gameboard.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
-      <div class="col-md-4">
-        <a class="consumer thumbnail">
-          <%= image_tag("../assets/website-screenshots/gameboard.png") %>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eum?</p>
-        </a>
-      </div>
-    </div>
-
     
   </div>
 </div>

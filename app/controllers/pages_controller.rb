@@ -6,6 +6,7 @@ class PagesController < ApplicationController
 	end
 
 	def portfolio
+		@works = Work.all
 	end
 
 	def contact
