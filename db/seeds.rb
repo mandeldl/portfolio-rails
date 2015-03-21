@@ -7,17 +7,17 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Work.create(
-	name: 'Art', 
-	imgurl: 'http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg',
-	description: 'dude, this is great!'
+	name: 'Gameboard', 
+	imgurl: 'gameboard',
+	description: 'Built with Ruby on Rails and Angular!'
 	)
 Work.create(
-	name: 'Whatevs', 
-	imgurl: 'http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg',
-	description: '2nd thing!'
+	name: 'Outbox', 
+	imgurl: 'outbox',
+	description: 'Rails, JQuery'
 	)
 Work.create(
-	name: 'Third guy', 
-	imgurl: 'http://upload.wikimedia.org/wikipedia/commons/e/eb/144-la_fuente_de_Monforte_V.jpg',
-	description: 'this is third!'
+	name: 'Readme', 
+	imgurl: 'readme',
+	description: 'Ruby on rails again'
 	)

@@ -18,9 +18,9 @@
     <div class="row">
       <% @works.each do |work| %>
       <div class="col-md-4">
-        <a href="#">
+        <a class="thumbnail" href="#">
           <h3><%= work.name %></h3>
-          <p><%= image_tag(work.imgurl, class: "img-responsive") %></p>
+          <p><%= image_tag("../assets/website-screenshots/#{work.imgurl}.png", class: "img-responsive") %></p>
           <p><%= work.description %></p>
         </a>
       </div>    
