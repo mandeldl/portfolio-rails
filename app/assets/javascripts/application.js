@@ -11,8 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require typed
 //= require sss
+//= require slideshow
+//= require typed
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .

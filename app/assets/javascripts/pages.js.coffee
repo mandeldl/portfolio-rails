@@ -9,4 +9,3 @@ $(".skills").typed({
 			loop: true,
 			loopCount: false
         });
-$('.slider').sss();
